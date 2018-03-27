@@ -5,9 +5,9 @@ class Ship
   SHIPS = []
 
   def initialize(name,type,booty)
-    @name = name
-    @type = type
-    @booty = booty
+    @name = params[:name]
+    @type = params[:type]
+    @booty = params[:booty]
   end
 
   def self.all
